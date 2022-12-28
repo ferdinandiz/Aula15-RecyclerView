@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/contorno"/>
+            <ImageView
+                android:id="@+id/imagem00"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleX=".97"
+                android:scaleY=".97"
+                android:src="@drawable/contorno"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:id="@+id/nome"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome aqui"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/data"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data aqui"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
